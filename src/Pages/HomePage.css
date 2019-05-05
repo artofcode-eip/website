@@ -1,0 +1,41 @@
+body {
+  background:#ededed;
+}
+
+a.border.nav-link.border-light.rounded.mr-1 {
+  color: #3F729B;
+}
+
+a.border.nav-link.border-light.rounded.mr-1:hover {
+  color: #1C2331;
+}
+
+.btn.btn-sm.indigo:hover{
+  color: #fff;
+}
+
+.nav-link.active{
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+#categories > .col-md-4.mb-5{
+  margin-bottom: 8rem !important;
+}
+
+.FirstPage {
+  height: 90vh;
+  background-image: url("../img/demo_aoc.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.SecondPage {
+  height: 90vh;
+  background: #f5f5f5;
+}
+
+.ThirdPage {
+  height: 90vh;
+  background: #e0e0e0;
+}

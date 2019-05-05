@@ -1,0 +1,21 @@
+{
+  "NavBar": {
+    "Title": "AoC - ArtofCode",
+    "Home": "Home",
+    "Price": "Pricing"
+  },
+  "Footer": {
+    "Title_Desc": "ArtofCode",
+    "Desc": "ArtofCode is a smart assistant for developers revolutionizing code quality control. It is intended for the entire developer community.",
+    "Social": "Join Us !",
+    "Contact": "Contact"
+  },
+  "HomePage": {
+    "Title_Desc": "ArtofCode",
+    "Desc": "ArtofCode is a developer assistant (JavaScript for the first version) to optimize his time, understand his error and explain how to correct it. It detects potential bugs before going into production and redirects to appropriate documentation integrated into the work environment.",
+    "Title_Valeur": "ArtofCode value",
+    "Valeur": "A developer loses too much time correcting his bugs: Either he has already met them and knows how to solve them, or he looks for the problem among forums and documentation, search for solutions, adapt them for its context, and starts again. These errors will only be known after delivering the product to its audience, creating frustration. The product then alternates between the development phase and the production phase, wastes the company's time, and has weak or non-existent functionalities."
+  },
+  "Pricing": {
+  }
+}
