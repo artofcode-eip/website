@@ -1,6 +1,5 @@
 .flyout {
 	display:flex;
 	flex-direction: column;
-/*	min-height:300vh; */
 	justify-content: space-between;
 }

@@ -8,9 +8,9 @@ export class HomePage extends React.Component {
   render() {
     const { t } = this.props;
     return (
-      <div style={{ marginTop: "4em" }}>
+      <div style={{ marginTop: "2.5em" }}>
         <div className="FirstPage">
-            <img className="mx-auto d-block img-fluid" alt="" src="logo.png" />
+          <img className="mx-auto d-block img-fluid mt-4" alt="" src="logo.png" />
         </div>
         <div className="SecondPage">
           <h1>{t('HomePage.Title_Desc')}</h1>
