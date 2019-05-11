@@ -17,5 +17,10 @@
     "Valeur": "A developer loses too much time correcting his bugs: Either he has already met them and knows how to solve them, or he looks for the problem among forums and documentation, search for solutions, adapt them for its context, and starts again. These errors will only be known after delivering the product to its audience, creating frustration. The product then alternates between the development phase and the production phase, wastes the company's time, and has weak or non-existent functionalities."
   },
   "Pricing": {
+    "TitleCard1": "Free Usage",
+    "TitleCard2": "Professional Usage",
+    "TextCard1": "Features Comming Soon !",
+    "TextCard2": "Features Comming Soon !",
+    "ButtonCard": "See More"
   }
 }

@@ -17,5 +17,10 @@
     "Valeur": "Un développeur perd trop de temps à corriger ses bugs: Soit il les a déjà rencontré et sait comment les résoudres, soit il recherche le problème parmi les forums et les documentations, recherche des solutions, les adaptes pour son contexte, et recommence. Ces erreurs seront connus seulement après avoir délivré le produit à son public, créant de la frustration. Le produit alterne alors entre phase de développement et mise en production, fait perdre du temps à son entreprise, et présente des fonctionnalités faibles voire non existantes."
   },
   "Pricing": {
+    "TitleCard1": "Usage Gratuit",
+    "TitleCard2": "Usage Profesionnel",
+    "TextCard1": "Caractéristiques à venir bientôt!",
+    "TextCard2": "Caractéristiques à venir bientôt!",
+    "ButtonCard": "Voir Plus"
   }
 }

@@ -1,31 +1,33 @@
 import React from "react";
 import { MDBBtn, MDBCard, MDBCardBody, MDBCardTitle, MDBCardText } from 'mdbreact';
+import { withTranslation } from 'react-i18next';
+
+import "./Pricing.css";
 
 class Pricing extends React.Component {
   render() {
+    const { t } = this.props;
     return (
-      <div className="d-flex justify-content-center">
-        <MDBCard style={{ width: "35rem" }} >
-          Usage Personnel
+      <div className="PricingPage d-flex justify-content-center">
+        <MDBCard className="Card">
             <MDBCardBody>
-            <MDBCardTitle>Card title</MDBCardTitle>
+            <MDBCardTitle>{t('Pricing.TitleCard1')}</MDBCardTitle>
+            <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{ width: "4vw" }} />
             <MDBCardText>
-              Some quick example text to build on the card title and make
-              up the bulk of the card&apos;s content.
-          </MDBCardText>
-            <MDBBtn href="#">MDBBtn</MDBBtn>
+              {t('Pricing.TextCard1')}
+            </MDBCardText>
+            <MDBBtn href="#">{t('Pricing.ButtonCard')}</MDBBtn>
           </MDBCardBody>
         </MDBCard>
 
-        <MDBCard style={{ width: "35rem" }} >
-          Usage Entreprise
+        <MDBCard className="Card">
             <MDBCardBody>
-            <MDBCardTitle>Card title</MDBCardTitle>
+            <MDBCardTitle>{t('Pricing.TitleCard2')}</MDBCardTitle>
+            <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{ width: "4vw" }} />
             <MDBCardText>
-              Some quick example text to build on the card title and make
-              up the bulk of the card&apos;s content.
-          </MDBCardText>
-            <MDBBtn href="#">MDBBtn</MDBBtn>
+              {t('Pricing.TextCard2')} <br/>
+            </MDBCardText>
+            <MDBBtn href="#">{t('Pricing.ButtonCard')}</MDBBtn>
           </MDBCardBody>
         </MDBCard>
       </div>
@@ -33,4 +35,4 @@ class Pricing extends React.Component {
   }
 }
 
-export default Pricing;
+export default withTranslation()(Pricing);
