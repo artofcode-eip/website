@@ -1,0 +1,22 @@
+stages:
+  # - doc
+  - integration-tests
+
+# pages:
+#   image: nxpleuvenjenkins/doxygen
+#   stage: doc
+#   script:
+#     - doxygen templates/doc
+#     - mv html public
+#   artifacts:
+#     paths:
+#       - public
+#   only:
+#   - master
+
+tests:
+  image: node:alpine
+  stage: integration-tests
+  script:
+    # - apk update && apk add --no-cache curl
+    - tests/test.sh
