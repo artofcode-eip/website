@@ -1,6 +1,7 @@
 #!/bin/sh
 
+npm i -g
 npm start
 
-curl localhost:3000/
-curl localhost:3000/Pricing
+wget localhost:3000/
+wget localhost:3000/Pricing

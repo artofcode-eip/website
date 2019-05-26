@@ -18,5 +18,4 @@ tests:
   image: node:alpine
   stage: integration-tests
   script:
-    # - apk update && apk add --no-cache curl
     - tests/test.sh
