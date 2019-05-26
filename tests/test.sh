@@ -1,9 +1,9 @@
 #!/bin/sh
 
-npm i -g
+npm i
 npm start &
 
 sleep 15
 
-wget localhost:3000/
-wget localhost:3000/Pricing
+wget http://localhost:3000/
+wget http://localhost:3000/Pricing
