@@ -1,7 +1,7 @@
 #!/bin/sh
 
 npm i -g
-npm start
+node src/App.js
 
 wget localhost:3000/
 wget localhost:3000/Pricing
