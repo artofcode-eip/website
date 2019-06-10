@@ -1,0 +1,26 @@
+{
+  "NavBar": {
+    "Title": "AoC - ArtofCode",
+    "Home": "Home",
+    "Price": "Nos Prix"
+  },
+  "Footer": {
+    "Title_Desc": "ArtofCode",
+    "Desc": "ArtofCode est un assistant intelligent destiné aux développeurs qui révolutionnent le contrôle de la qualité du code. Il est destiné à toute la communauté des développeurs.",
+    "Social": "Rejoins Nous !",
+    "Contact": "Contact"
+  },
+  "HomePage": {
+    "Title_Desc": "ArtofCode",
+    "Desc": "ArtofCode est un assistant pour développeur (JavaScript pour la première version) permettant d’optimiser son temps, de comprendre son erreur et d’expliquer comment la corriger. Il détecte les bugs potentiels avant la mise en production et redirige vers une documentation adaptée et intégrée dans l’environnement de travail.",
+    "Title_Valeur": "Valeur d'ArtofCode",
+    "Valeur": "Un développeur perd trop de temps à corriger ses bugs: Soit il les a déjà rencontré et sait comment les résoudres, soit il recherche le problème parmi les forums et les documentations, recherche des solutions, les adaptes pour son contexte, et recommence. Ces erreurs seront connus seulement après avoir délivré le produit à son public, créant de la frustration. Le produit alterne alors entre phase de développement et mise en production, fait perdre du temps à son entreprise, et présente des fonctionnalités faibles voire non existantes."
+  },
+  "Pricing": {
+    "TitleCard1": "Usage Gratuit",
+    "TitleCard2": "Usage Profesionnel",
+    "TextCard1": "Caractéristiques à venir bientôt!",
+    "TextCard2": "Caractéristiques à venir bientôt!",
+    "ButtonCard": "Voir Plus"
+  }
+}
