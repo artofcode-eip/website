@@ -16,6 +16,7 @@ stages:
 
 tests:
   stage: integration-tests
+  image: node:alpine
   script:
     - npm i && npm start &
     - apk add curl
