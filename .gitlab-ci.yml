@@ -16,11 +16,8 @@ stages:
 
 tests:
   stage: integration-tests
-  services:
-    - name: node:alpine
-      alias: aoc_website
-      command: ["npm i && npm start"]
-  image: byrnedo/alpine-curl
   script:
+    - npm i && npm start &
+    - apk add curl
     - curl aoc_website:3000/
     - curl aoc_website:3000/Pricing
