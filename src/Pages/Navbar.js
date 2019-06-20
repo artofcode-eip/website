@@ -14,7 +14,7 @@ export function Navbar() {
 
     return (
         <MDBContainer>
-            <MDBNavbar light expand="md" fixed="top" scrolling>
+            <MDBNavbar style="background-color: white;" light expand="md" fixed="top" scrolling>
                 <MDBNavbarBrand href="/">{t('NavBar.Title')}</MDBNavbarBrand>
                 <MDBNavbarToggler />
                 <MDBCollapse navbar>
