@@ -26,7 +26,7 @@ export class Footer extends Component {
                                 <i className="fab fa-facebook-f"></i><a target="_blank" rel="noopener noreferrer" className="px-md-3 py-md-2" href="https://www.facebook.com/Art-Of-Code-2373428686047793/">Facebook</a>
                             </p>
                             <p>
-                                <i className="fab fa-twitter"></i><a target="_blank" rel="noopener noreferrer" className="px-md-2 py-md-2" href="#!">Twitter</a>
+                                <i className="fab fa-twitter"></i><a target="_blank" rel="noopener noreferrer" className="px-md-2 py-md-2" href="https://twitter.com/ArtOfCode2">Twitter</a>
                             </p>
                             <p>
                                 <i className="fab fa-github"></i><a target="_blank" rel="noopener noreferrer" className="px-md-2 py-md-2" href="https://github.com/artofcode-eip">Github</a>
