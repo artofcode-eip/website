@@ -29,7 +29,7 @@ export class Footer extends Component {
                                 <i className="fab fa-twitter"></i><a target="_blank" rel="noopener noreferrer" className="px-md-2 py-md-2" href="#!">Twitter</a>
                             </p>
                             <p>
-                                <i className="fab fa-github"></i><a target="_blank" rel="noopener noreferrer" className="px-md-2 py-md-2" href="#!">Github</a>
+                                <i className="fab fa-github"></i><a target="_blank" rel="noopener noreferrer" className="px-md-2 py-md-2" href="https://github.com/artofcode-eip">Github</a>
                             </p>
                             <p>
                                 <i className="fab fa-gitlab" ></i><a target="_blank" rel="noopener noreferrer" className="px-md-2 py-md-2" href="https://gitlab.com/art_of_code">Gitlab</a>
